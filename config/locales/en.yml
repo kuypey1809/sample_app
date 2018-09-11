@@ -1,5 +1,17 @@
 en:
   header: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      title: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Login"
+    footer:
+      by: "by"
+      author: "Michael Hartl"
+      news: "News"
+      l_author: "http://www.michaelhartl.com/"
+      l_news: "http://news.railstutorial.org/"
   static_pages:
     contact:
       title: "Contact"
@@ -7,9 +19,10 @@ en:
       l_contact: "http://www.railstutorial.org/contact"
       descript: "Contact the Ruby on Rails Tutorial about the sample app at the"
     home:
-      title: "SampleApp"
+      title: "Welcome to the Sample App"
       descript_1: "This is the home page for the"
       descript_2: "sample application."
+      signup: Sign up now!"
     help:
       title: "Help"
       descript_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -31,3 +44,9 @@ en:
       l_ror: "http://rubyonrails.org/"
       l_tutorial: "https://railstutorial.org/"
       l_book: "http://www.railstutorial.org/book"
+  users:
+    new:
+      title: "Sign up"
+      descript: "This will be a signup page for new users."
+
+
