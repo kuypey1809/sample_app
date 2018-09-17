@@ -4,3 +4,5 @@ email:
   max_size: 255
 pass:
   min_size: 6
+gravatar:
+  size: 180
