@@ -10,6 +10,7 @@ gem "bootstrap-sass", "3.3.7"
 gem "coffee-rails", "~> 4.2"
 gem "config"
 gem "jbuilder", "~> 2.5"
+gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "puma", "~> 3.11"
 gem "rails", "~> 5.2.1"
 gem "sass-rails", "~> 5.0"
@@ -23,6 +24,7 @@ end
 
 group :development do
   gem "listen", ">= 3.0.5", "< 3.2"
+  gem "pry-rails"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
   gem "web-console", ">= 3.3.0"

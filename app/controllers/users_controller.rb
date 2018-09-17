@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
   def show
     @user = User.find params[:id]
+  rescue ActiveRecord::RecordNotFound
+    flash[:danger] = t "layouts.flash.notfound"
+    redirect_to root_path
   end
 
   def new
@@ -10,7 +13,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t"layouts.flash.success"
+      log_in @user
+      flash[:success] = t "layouts.flash.success"
       redirect_to @user
     else
       render :new

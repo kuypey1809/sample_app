@@ -3,11 +3,18 @@ en:
   layouts:
     flash:
       success: "Welcome to my Sample App"
+      danger: "Invalid email/password combination"
+      notfound: "User can not found. Comeback to Home Page"
+      logged: "You have logged in. Log out before logging in another account"
     header:
       title: "sample app"
       home: "Home"
       help: "Help"
       login: "Login"
+      account: "Account %{b}"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       by: "by"
       author: "Michael Hartl"
@@ -24,7 +31,7 @@ en:
       title: "Welcome to the Sample App"
       descript_1: "This is the home page for the"
       descript_2: "sample application."
-      signup: Sign up now!"
+      signup: "Sign up now!"
     help:
       title: "Help"
       descript_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -59,4 +66,7 @@ en:
     error_messages:
       notification: "The form contains"
       error: "error"
-
+  sessions:
+    new:
+      title: "Log in"
+      new: "New user?"
