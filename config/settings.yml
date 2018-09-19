@@ -1,8 +1,11 @@
-name:
-  max_size: 50
-email:
-  max_size: 255
-pass:
-  min_size: 6
-gravatar:
-  size: 180
+user:
+  name:
+    max_size: 50
+  email:
+    max_size: 255
+  pass:
+    min_size: 6
+  gravatar:
+    size: 180
+session:
+  remember_me: "1"

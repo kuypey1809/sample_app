@@ -62,6 +62,7 @@ en:
       email: "Email"
       pass: "Password"
       pass_confirm: "Confirmation"
+      remember: "Remember me on this computer"
   shared:
     error_messages:
       notification: "The form contains"

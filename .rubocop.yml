@@ -19,6 +19,15 @@ AllCops:
     - 'spec/**/*'
     - 'script/rails'
     - 'config/**/*'
+    - 'script/cucumber'
+    - 'features/**/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'lib/**/*'
+    - 'Guardfile'
+    - 'Capfile'
+    - 'Rakefile'
+    - 'config.ru'
 
 # Indent private/protected/public as deep as method definitions
 Layout/AccessModifierIndentation:
