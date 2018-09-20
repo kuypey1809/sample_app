@@ -6,8 +6,25 @@ en:
       danger: "Invalid email/password combination"
       notfound: "User can not found. Comeback to Home Page"
       logged: "You have logged in. Log out before logging in another account"
+      log_in: "Please log in."
+      updated: "Profile updated"
+      cant_edit: "You can not edit this profile"
+      deleted: "User deleted"
+      cant_delete: "User has been deleted before"
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+      not_activated: "Account not activated. Check your email for the activation link."
+      check_mail: "Please check your email to activate your account."
+      reseted: "Password has been reset."
+      expired: "Password reset has expired."
+      requested_reset: "Email sent with password reset instructions"
+      not_found: "Email address not found"
+      cant_empty: "can't be empty"
+      succeed_micropost: "Micropost created!"
+      deleted_micropost: "Micropost deleted"
+      less_5mb: "should be less than 5MB"
     header:
-      title: "sample app"
+      title: "Sample app"
       home: "Home"
       help: "Help"
       login: "Login"
@@ -32,6 +49,7 @@ en:
       descript_1: "This is the home page for the"
       descript_2: "sample application."
       signup: "Sign up now!"
+      feed: "Micropost Feed"
     help:
       title: "Help"
       descript_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -56,18 +74,53 @@ en:
   users:
     new:
       title: "Sign up"
-      descript: "This will be a signup page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      description: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    form:
       name: "Name"
       email: "Email"
       pass: "Password"
       pass_confirm: "Confirmation"
-      remember: "Remember me on this computer"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
+    show:
+      microposts: "Microposts"
   shared:
     error_messages:
       notification: "The form contains"
       error: "error"
+    user_info:
+      profile: "view my profile"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+      smaller: "Maximum file size is 5MB. Please choose a smaller file."
   sessions:
     new:
       title: "Log in"
       new: "New user?"
+      remember: "Remember me on this computer"
+      forgot: "(Forgot password?)"
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit: "Submit"
+    edit:
+      update: "Update password"
+  user_mailer:
+    password_reset:
+      message: "To reset your password click the link below:"
+      expire: "This link will expire in two hours."
+      ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+      title: "Password reset"
+      reset: "Reset password"
+  microposts:
+    micropost:
+      time: "Posted %{x} ago."
