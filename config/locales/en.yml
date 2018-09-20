@@ -11,8 +11,12 @@ en:
       cant_edit: "You can not edit this profile"
       deleted: "User deleted"
       cant_delete: "User has been deleted before"
+      activated: "Account activated!"
+      invalid_link: "Invalid activation link"
+      not_activated: "Account not activated. Check your email for the activation link."
+      check_mail: "Please check your email to activate your account."
     header:
-      title: "sample app"
+      title: "Sample app"
       home: "Home"
       help: "Help"
       login: "Login"
@@ -86,3 +90,8 @@ en:
       title: "Log in"
       new: "New user?"
       remember: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      hi: "Hello "
+      message: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
