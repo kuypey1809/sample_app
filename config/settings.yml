@@ -6,6 +6,10 @@ user:
   pass:
     min_size: 6
   gravatar:
-    size: 180
+    show_size: 180
+    index_size: 50
 session:
   remember_me: "1"
+micropost:
+  content:
+    max_size: 140
