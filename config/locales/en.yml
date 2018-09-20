@@ -6,6 +6,11 @@ en:
       danger: "Invalid email/password combination"
       notfound: "User can not found. Comeback to Home Page"
       logged: "You have logged in. Log out before logging in another account"
+      log_in: "Please log in."
+      updated: "Profile updated"
+      cant_edit: "You can not edit this profile"
+      deleted: "User deleted"
+      cant_delete: "User has been deleted before"
     header:
       title: "sample app"
       home: "Home"
@@ -56,13 +61,22 @@ en:
   users:
     new:
       title: "Sign up"
-      descript: "This will be a signup page for new users."
       create: "Create my account"
+    edit:
+      title: "Edit user"
+      description: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+    index:
+      title: "All users"
+    form:
       name: "Name"
       email: "Email"
       pass: "Password"
       pass_confirm: "Confirmation"
-      remember: "Remember me on this computer"
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
   shared:
     error_messages:
       notification: "The form contains"
@@ -71,3 +85,4 @@ en:
     new:
       title: "Log in"
       new: "New user?"
+      remember: "Remember me on this computer"
