@@ -10,3 +10,6 @@ user:
     index_size: 50
 session:
   remember_me: "1"
+micropost:
+  content:
+    max_size: 140
