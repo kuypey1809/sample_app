@@ -5,6 +5,7 @@ user:
     max_size: 255
   pass:
     min_size: 6
+    reset_time: 2
   gravatar:
     show_size: 180
     index_size: 50
